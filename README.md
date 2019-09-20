@@ -1,6 +1,4 @@
-# For Loop Practice Problems
-
-## Start with a basic set of stairs
+# Start with a basic set of stairs
 
 ```
 X
@@ -16,39 +14,26 @@ XXXXXXXXXX
 ```
 [Solution](./solutions/Stairs.java)
 
-## Alter your code to produce the following
+# Alter your code to produce the following
 
-### Striped Stairs #1
+## Flipped Stairs #1
 ```
-O
-XX
-OOO
-XXXX
-OOOOO
-XXXXXX
-OOOOOOO
-XXXXXXXX
-OOOOOOOOO
 XXXXXXXXXX
+XXXXXXXXX
+XXXXXXXX
+XXXXXXX
+XXXXXX
+XXXXX
+XXXX
+XXX
+XX
+X
 ```
-[Solution](./solutions/StripedStairs1.java)
+**Hint:** try reversing the direction of your loop
 
-### Striped Stairs #2
-```
-O
-OX
-OXO
-OXOX
-OXOXO
-OXOXOX
-OXOXOXO
-OXOXOXOX
-OXOXOXOXO
-OXOXOXOXOX
-```
-[Solution](./solutions/StripedStairs2.java)
+[Solution](./solutions/FlippedStairs1.java)
 
-### Stretched Stairs #1
+## Stretched Stairs #1
 ```
 XXX
 XXXXXX
@@ -61,9 +46,47 @@ XXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
+**Hint:** how can we double or triple the number of iterations a loop does?
+
 [Solution](./solutions/StretchedStairs1.java)
 
-### Stretched Stairs #2
+## Striped Stairs #1
+```
+O
+XX
+OOO
+XXXX
+OOOOO
+XXXXXX
+OOOOOOO
+XXXXXXXX
+OOOOOOOOO
+XXXXXXXXXX
+```
+**Hint:** we need to know if the row we're on is even or odd
+
+**Hint:** you'll want to use the modulo operator
+
+[Solution](./solutions/StripedStairs1.java)
+
+## Striped Stairs #2
+```
+O
+OX
+OXO
+OXOX
+OXOXO
+OXOXOX
+OXOXOXO
+OXOXOXOX
+OXOXOXOXO
+OXOXOXOXOX
+```
+**Hint:** very similar to Striped Stairs #1, except we need to check if our *column* is even or odd
+
+[Solution](./solutions/StripedStairs2.java)
+
+## Stretched Stairs #2
 ```
 X
 X
@@ -96,26 +119,15 @@ XXXXXXXXXX
 XXXXXXXXXX
 XXXXXXXXXX
 ```
+**Hint:** is there a step from our original soltion that we could repeat 3 times instead of just once?
+
+**Hint:** you may need 3 nested loops here.
+
 [Solution](./solutions/StretchedStairs2.java)
 
-### Flipped Stairs #1
-```
-XXXXXXXXXX
-XXXXXXXXX
-XXXXXXXX
-XXXXXXX
-XXXXXX
-XXXXX
-XXXX
-XXX
-XX
-X
-```
-[Solution](./solutions/FlippedStairs1.java)
+# If you are looking for a challenge...
 
-## If you are looking for a challenge...
-
-### Flipped Stairs #2
+## Flipped Stairs #2
 ```
          X
         XX
@@ -128,9 +140,14 @@ X
  XXXXXXXXX
 XXXXXXXXXX
 ```
+**Hint:** there is an invisible triangle made up of spaces
+
 [Solution](./solutions/FlippedStairs2.java)
 
-### Triangle
+## Triangle
+
+I will give the first student to solve this problem $20 😮💰💰 (pending Carly's approval)
+
 ```
          X
         XXX
@@ -143,4 +160,5 @@ XXXXXXXXXX
  XXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXX
 ```
+
 [Solution](./solutions/Triangle.java)
