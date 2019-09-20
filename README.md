@@ -48,7 +48,7 @@ OXOXOXOXOX
 ```
 [Solution](./solutions/StripedStairs2.java)
 
-### Streched Stairs #1
+### Stretched Stairs #1
 ```
 XXX
 XXXXXX
@@ -61,9 +61,9 @@ XXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
-[Solution](./solutions/StrechedStairs1.java)
+[Solution](./solutions/StretchedStairs1.java)
 
-### Streched Stairs #2
+### Stretched Stairs #2
 ```
 X
 X
@@ -96,7 +96,7 @@ XXXXXXXXXX
 XXXXXXXXXX
 XXXXXXXXXX
 ```
-[Solution](./solutions/StrechedStairs2.java)
+[Solution](./solutions/StretchedStairs2.java)
 
 ### Flipped Stairs #1
 ```
