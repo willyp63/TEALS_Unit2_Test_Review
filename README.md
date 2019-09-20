@@ -142,8 +142,6 @@ XXXXXXXXXX
 ```
 **Hint:** there is an invisible triangle made up of spaces
 
-[Solution](./solutions/FlippedStairs2.java)
-
 ## Triangle
 
 I will give the first student to solve this problem $20 😮💰💰 (pending Carly's approval)
@@ -160,5 +158,3 @@ I will give the first student to solve this problem $20 😮💰💰 (pending Ca
  XXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXX
 ```
-
-[Solution](./solutions/Triangle.java)
