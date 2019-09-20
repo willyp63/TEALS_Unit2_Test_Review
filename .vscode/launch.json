@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - StripedStairs1",
+      "request": "launch",
+      "mainClass": "solutions.StripedStairs1",
+      "projectName": "TEALS_Unit2_Test_Review_46939dfc"
+    }
+  ]
+}
